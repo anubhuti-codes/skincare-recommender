@@ -1,4 +1,3 @@
-// Complete Product Database with All Specified Products
 const products = {
     cleansers: [
         { name: "Salicylic Acid 2% Face Wash", brand: "Minimalist", price: 229, skinTypes: ["oily", "combination"], concerns: ["acne"], platforms: ["Nykaa", "Amazon"], image: "sa.jpg" },
@@ -120,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         container.innerHTML = '';
 
         if (isLipBalms) {
-            // Show all lip balms regardless of filter
+            // Showing all lip balms regardless of filter
             productsList.forEach(product => {
                 container.insertAdjacentHTML('beforeend', createProductHTML(product));
             });
