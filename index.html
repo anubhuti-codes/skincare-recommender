@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+        <h1>Glow Guide by Anubhuti ☀️</h1>
+    </header>
+    <div class="container">
+        <h2>Personalized Skincare Recommender</h2>
+        
+        <form id="skincareForm">
+            <div class="form-group">
+                <select name="skinType" required>
+                    <option value="" disabled selected>Skin Type</option>
+                    <option value="oily">Oily</option>
+                    <option value="dry">Dry</option>
+                    <option value="combination">Combination</option>
+                    <option value="sensitive">Sensitive</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select name="concern" required>
+                    <option value="" disabled selected>Main Concern</option>
+                    <option value="acne">Acne</option>
+                    <option value="dark-spots">Dark Spots</option>
+                    <option value="aging">Aging</option>
+                    <option value="dryness">Dryness</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select name="budget" required>
+                    <option value="" disabled selected>Budget</option>
+                    <option value="low">Under 350</option>
+                    <option value="medium">350 - 800</option>
+                    <option value="high">Over 800</option>
+                </select>
+            </div>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        <div id="recommendations" class="hidden">
+            <h2>Your Custom Skincare Routine</h2>
+            <div class="routine-steps">
+                <div class="routine-step">
+                    <h3>Cleanser</h3>
+                    <div id="cleanserProducts" class="products-grid"></div>
+                </div>
+                <div class="routine-step">
+                    <h3>Serum</h3>
+                    <div id="serumProducts" class="products-grid"></div>
+                </div>
+                <div class="routine-step">
+                    <h3>Moisturizer</h3>
+                    <div id="moisturizerProducts" class="products-grid"></div>
+                </div>
+                <div class="routine-step">
+                    <h3>Sunscreen</h3>
+                    <div id="sunscreenProducts" class="products-grid"></div>
+                </div>
+                <div class="routine-step">
+                    <h3>Lip Care</h3>
+                    <div id="lipcareProducts" class="products-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <br>
+    <center>
+<footer>
+        <p>Made with love ❤️ by Anubhuti</p>
+    </footer>
+     </center>
+</body>
+</html>
