@@ -51,14 +51,6 @@ If you use this code or build upon it, please give appropriate credit in your re
 
 ---
 
-## 🧠 Future Enhancements (Ideas)
-
-- Add search bar and sorting filters
-- Add product reviews or rating data
-- Connect with live API for product updates
-- Add dark mode
-
----
 
 ## 🙋‍♀️ Feedback & Contributions
 
