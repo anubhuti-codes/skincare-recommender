@@ -84,7 +84,7 @@ const products = {
         { name: "Petroleum Jelly", brand: "Vaseline", price: 99, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "pj.jpg" },
         { name: "Lip Therapy", brand: "Vaseline", price: 299, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "lt.jpg" },
         { name: "Lip Butter", brand: "Wishcare", price: 230, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "lb.jpg" },
-        { name: "Plumping Lip Balm", brand: "The Ordinary", price: 999, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "plbo.jpg" },
+        { name: "Plumping Lip Balm", brand: "The Ordinary", price: 999, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "pblo.jpg" },
         { name: "Ayurvedic Lip Balm", brand: "Indie Wild", price: 799, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "alb.jpg" },
         { name: "Barrier Repair Lip Balm", brand: "Deconstruct", price: 399, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "brlb.jpg" },
         { name: "Lip Balm SPF 30", brand: "Fixderma", price: 250, skinTypes: ["all"], concerns: ["all"], platforms: ["Nykaa"], image: "lbs.jpg" }
