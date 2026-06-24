@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const recommendations = document.getElementById('recommendations');
 
     form.addEventListener('submit', function(e) {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault(); 
 
         // Normalize inputs for matching
         const skinType = form.skinType.value.trim().toLowerCase();
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return skinMatch && concernMatch && priceMatch;
         });
 
-        // Fallback 1: skin type + budget (keep budget filter)
+        
         if (filtered.length === 0) {
             filtered = productsList.filter(product => {
                 const skinMatch = product.skinTypes.includes("all") || product.skinTypes.map(s => s.toLowerCase()).includes(skinType);
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
-        // Fallback 2: skin type + budget (keep budget filter)
+        
         if (filtered.length === 0) {
             filtered = productsList.filter(product => {
                 const priceMatch = matchesBudget(product.price);
